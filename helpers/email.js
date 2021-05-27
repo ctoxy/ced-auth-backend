@@ -9,7 +9,7 @@ exports.sendEmailWithNodemailer = (req, res, emailData) => {
     requireTLS: true,
     auth: {
       user: "", // MAKE SURE THIS EMAIL IS YOUR GMAIL FOR WHICH YOU GENERATED APP PASSWORD voir cours udemy
-      pass: "", // MAKE SURE THIS PASSWORD IS YOUR GMAIL APP PASSWORD WHICH YOU GENERATED EARLIER
+      pass: "", // MAKE SURE THIS PASSWORD IS YOUR GMAIL APP PASSWORD WHICH YOU GENERATED EARLIER voir cours udemy
     },
     tls: {
       ciphers: "SSLv3",
